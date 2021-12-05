@@ -22,7 +22,7 @@ else:
   print("MySQL connection established!")
 
   m_query = "SELECT * FROM Orders;"
-local_filename = "week13-roshan.csv"
+local_filename = "order_extract.csv"
 
 m_cursor = conn.cursor()
 m_cursor.execute(m_query)
